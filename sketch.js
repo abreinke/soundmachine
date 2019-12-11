@@ -4,8 +4,8 @@ let hailSound;
 let windSound;
 let soundVolume;
 function preload(){
-soundFormats('mp3' , 'm4a');
-mySound = loadSound('rain.m4a');
+soundFormats('mp3');
+mySound = loadSound('rain.mp3');
 thunderSound = loadSound('thunder.mp3');
 hailSound = loadSound('hail.mp3');
 windSound = loadSound('wind.mp3');
@@ -22,6 +22,7 @@ windSound.setVolume(soundVolume);
 function keyTyped(){
 if (key == 'r'){
 mySound.play();
+loop;
 }
 else if (key == 't') {
 thunderSound.play();
@@ -39,5 +40,8 @@ mySound.setVolume(soundVolume);
 else if (key == 'd') {
 soundVolume = soundVolume - 0.1;
 mySound.setVolume(soundVolume);
+}
+else if (key == 'p') {
+mySound.pause();
 }
 }
