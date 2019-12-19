@@ -1,9 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url("index4/thunderstorm.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 canvas {
   display: block;
