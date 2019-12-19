@@ -1,6 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url("index4/thunderstorm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 canvas {
   display: block;
@@ -9,7 +12,7 @@ h1{
   font-size: 50px;
   font-weight: normal;
   font-family: sans-serif;
-  justify: center; 
+  justify: center;
   }
 h2{
   font-size: 45px;
