@@ -43,5 +43,8 @@ mySound.setVolume(soundVolume);
 }
 else if (key == 'p') {
 mySound.pause();
+thunderSound.pause();
+hailSound.pause();
+windSound.pause();
 }
 }
